@@ -50,6 +50,32 @@ nav a:hover {
 	height:0;
 }
 
+@media (max-width: 768px) {
+	body{
+		background-color: blue;
+		width: auto;
+	}
+	nav a {
+
+	width:33%;
+	display:block;
+	background:white;
+	text-align:center;
+	margin:0;
+	padding:0;
+	border:1px solid #ccc;
+	padding:10px 0;
+	color:black;
+	text-decoration:none;
+	font-size:1em;
+	}
+	header object { /* logo */
+	width:auto;
+	height:250px;
+}
+
+
+}
 /* Tablet Layout: 768px.
  * Gutters: 24px.
  * Outer margins: 28px.
