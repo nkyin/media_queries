@@ -55,9 +55,10 @@ nav a:hover {
 		background-color: blue;
 		width: auto;
 	}
-	nav a {
 
-	width:33%;
+	nav a {
+	width: 100%;
+	float:none;
 	display:block;
 	background:white;
 	text-align:center;
@@ -69,9 +70,22 @@ nav a:hover {
 	text-decoration:none;
 	font-size:1em;
 	}
+
+	nav	{
+		width: 50%;
+		float: left;
+	}
+
 	header object { /* logo */
-	width:auto;
-	height:250px;
+	width: 100px;
+	height: auto;
+
+	}
+
+	header	{
+		width: 50%;
+		float:left;
+	}
 }
 
 
